@@ -171,10 +171,10 @@ async def gen_thumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Meena Ki Mahfil", font=arial)
+        text_w, text_h = draw.textsize(f"Group: Meena Ki Mahfil", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Meena Ki Mahfil",
+            f"Group: Meena Ki Mahfil",
             fill="white",
             font=arial,
         )
@@ -330,10 +330,10 @@ async def gen_qthumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Meena Ki Mahfil", font=arial)
+        text_w, text_h = draw.textsize(f"Group: Meena Ki Mahfil", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Meena Ki Mahfil",
+            f"Group: Meena Ki Mahfil",
             fill="white",
             font=arial,
         )
