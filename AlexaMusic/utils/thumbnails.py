@@ -133,19 +133,19 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
+            text_w, text_h = draw.textsize(f"MEENA MUSIC IS PLAYING OP", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
+                f"MEENA MUSIC IS PLAYING OP",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"Meena Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"Meena Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
