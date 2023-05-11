@@ -171,10 +171,10 @@ async def gen_thumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Group:Best Friends Chat Group", font=arial)
+        text_w, text_h = draw.textsize(f"Best Friends Chat Group", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"Group:Best Friends Chat Group",
+            f"Best Friends Chat Group",
             fill="white",
             font=arial,
         )
@@ -330,10 +330,10 @@ async def gen_qthumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Group:Best Friends Chat Group", font=arial)
+        text_w, text_h = draw.textsize(f"Best Friends Chat Group", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"Group:Best Friends Chat Group",
+            f"Best Friends Chat Group",
             fill="white",
             font=arial,
         )
