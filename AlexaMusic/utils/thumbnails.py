@@ -133,19 +133,19 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"MEENA MUSIC IS PLAYING OP", font=font)
+            text_w, text_h = draw.textsize(f"BFCG MUSIC IS PLAYING OP", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"MEENA MUSIC IS PLAYING OP",
+                f"BFCG MUSIC IS PLAYING OP",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Meena Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"BFCG Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Meena Music One Of The Most Advanced Telegram Music Bot",
+                f"BFCG Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
@@ -171,10 +171,10 @@ async def gen_thumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Group: Meena Ki Mahfil", font=arial)
+        text_w, text_h = draw.textsize(f"Group:Best Friends Chat Group", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"Group: Meena Ki Mahfil",
+            f"Group:Best Friends Chat Group",
             fill="white",
             font=arial,
         )
@@ -292,19 +292,19 @@ async def gen_qthumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"MEENA ADDED THIS SONG TO QUEUE", font=font)
+            text_w, text_h = draw.textsize(f"BFCG ADDED THIS SONG TO QUEUE", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"MEENA ADDED THIS SONG TO QUEUE",
+                f"BFCG ADDED THIS SONG TO QUEUE",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Meena Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"BFCG Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Meena Music One Of The Most Advanced Telegram Music Bot",
+                f"BFCG Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
@@ -330,10 +330,10 @@ async def gen_qthumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Group: Meena Ki Mahfil", font=arial)
+        text_w, text_h = draw.textsize(f"Group:Best Friends Chat Group", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"Group: Meena Ki Mahfil",
+            f"Group:Best Friends Chat Group",
             fill="white",
             font=arial,
         )
